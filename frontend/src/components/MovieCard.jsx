@@ -1,3 +1,5 @@
+import "../css/MovieCard.css";
+
 function MovieCard({ movie }) {
   function handleFavorite() {
     alert("tu viens de cliquer sur le bouton favoris");
