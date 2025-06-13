@@ -1,12 +1,35 @@
-# React + Vite
+# 🎯 MovieHUB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieHUB est une application web React qui permet de rechercher et de consulter les films les plus populaires du moment.
+Ce projet m’a permis de découvrir les bases de React en pratiquant sur une interface complète, responsive et connectée à l’API TMDB.
+Il s'agit d’un projet d’apprentissage réalisé à partir d’un tutoriel de [Tech With Tim](https://www.youtube.com/watch?v=G6D9cBaLViA).
 
-Currently, two official plugins are available:
+## 📸 Aperçu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Aperçu de l’interface de l’application, avec un visuel du hub des films les plus populaires, ainsi que de la page des favoris.
 
-## Expanding the ESLint configuration
+![Aperçu de l'application](./src/assets/screens.jpg)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Fonctionnalités
+
+- ✅ Rechercher des films via la barre de recherche (requêtes [TMDB](https://developer.themoviedb.org/docs/getting-started) en temps réel)
+- ✅ Afficher les films populaires et leurs informations (titre, image, date)
+- ✅ Ajouter / retirer un film des favoris
+- ✅ Accéder à la liste des films favoris depuis une page dédiée
+
+## 🛠️ Stack technique
+
+- **Frontend** : React
+
+## 🔧 Installation
+
+```bash
+# 1. Clone le repo
+git clone https://github.com/florianLSP/react-moviehub.git
+
+# 2. Installe les dépendances
+npm install
+
+# 3. Démarre le projet
+npm run dev
+```
