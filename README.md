@@ -8,7 +8,7 @@ Il s'agit d’un projet d’apprentissage réalisé à partir d’un tutoriel de
 
 > Aperçu de l’interface de l’application, avec un visuel du hub des films les plus populaires, ainsi que de la page des favoris.
 
-![Aperçu de l'application](./src/assets/screens.jpg)
+![Aperçu de l'application](./frontend/src/assets/screens.jpg)
 
 ## 🚀 Fonctionnalités
 
